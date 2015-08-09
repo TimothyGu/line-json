@@ -1,0 +1,25 @@
+{
+  "name": "line-json",
+  "version": "1.0.0",
+  "description": "Stringify and parse lines of JSON as an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyGu/line-json.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "devDependencies": {
+    "testit": "^2.0.0"
+  },
+  "author": "Timothy Gu <TimothyGu99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimothyGu/line-json/issues"
+  },
+  "homepage": "https://github.com/TimothyGu/line-json#readme"
+}
