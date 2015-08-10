@@ -1,6 +1,6 @@
 var assert = require('assert')
 var testit = require('testit')
-var lineJSON = require('.')
+var lineJSON = require('./')
 
 testit('combined', function () {
   function test (array) {
