@@ -16,7 +16,7 @@ testit('combined', function () {
 
 testit('parse', function () {
   testit('throws on invalid input', function () {
-    ['', '\n', '"abc"\n', "'abc'"].forEach(function (input) {
+    ['[', 'd', '"adf"\n"afds"\nundefined\n2', "''"].forEach(function (input) {
       assert.throws(function () {
         lineJSON.parse(input)
       })

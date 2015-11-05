@@ -1,9 +1,11 @@
 exports.parse = function parse (str) {
   var array = str.split('\n')
+  var out = []
   for (var i = 0; i < array.length; i++) {
-    array[i] = JSON.parse(array[i])
+    if (!array[i]) continue
+    out.push(JSON.parse(array[i]))
   }
-  return array
+  return out
 }
 
 exports.stringify = function stringify (array, replacer) {
